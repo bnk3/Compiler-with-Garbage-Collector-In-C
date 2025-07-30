@@ -6,9 +6,9 @@
 #include "compiler.h"
 #include "scanner.h"
 #include "memory.h"
-
-#ifdef DEBUG_PRITNT_CODE
 #include "debug.h"
+#ifdef DEBUG_PRITNT_CODE
+// #include "debug.h"
 #endif
 
 typedef struct {

@@ -1,15 +1,17 @@
 #include "common.h"
-#include "chunk.c"
-#include "debug.c"
-#include "value.c"
-#include "vm.c"
-#include "compiler.c"
-#include "scanner.c"
+// #include "chunk.c"
+// #include "debug.c"
+// #include "value.c"
+// #include "vm.c"
+// #include "compiler.c"
+// #include "scanner.c"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include "vm.h"
+#include "scanner.h"
+#include "value.h"
 static void repl(){
   char line[1024];
   for(;;){
